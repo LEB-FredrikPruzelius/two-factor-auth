@@ -11,7 +11,7 @@ public class TwoFactorAuthExample {
 
 	public static void main(String[] args) throws Exception {
 
-		// String base32Secret = twoFactorAuthUtil.generateBase32Secret();
+		// String base32Secret = TimeBasedOneTimePasswordUtil.generateBase32Secret();
 		String base32Secret = "NY4A5CPJZ46LXZCP";
 
 		System.out.println("secret = " + base32Secret);
